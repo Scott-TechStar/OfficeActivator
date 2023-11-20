@@ -35,7 +35,7 @@ cscript //nologo ospp.vbs /act | find /i "successful"
 
  (echo.
 echo ============================================================================
-echo #Please feel free to contact me at mail2ehsanalem@gmail.com if you have any questions or concerns.
+echo #Please feel free to contact me at johnniekips@gmail.com if you have any questions or concerns.
 echo ============================================================================
 choice /n /c YN /m "Would you like to visit my Page [Y,N]?" 
  if errorlevel 2 exit) || (echo The connection to my KMS server failed! Trying to connect to another one... 
@@ -44,7 +44,7 @@ choice /n /c YN /m "Would you like to visit my Page [Y,N]?"
  echo. 
  set /a i+=1 
  goto server)
-explorer "http://github.io/agileehsan"
+explorer "http://github.io/Scott-TechStar"
 goto halt
 :notsupported
 echo.
